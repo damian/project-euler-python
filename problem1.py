@@ -1,4 +1,4 @@
-def naturals():
+def problem1():
 	x = 0
 	for i in range (1, 1000):
 		if (i%3 == 0 or i%5 == 0):
@@ -7,4 +7,4 @@ def naturals():
 	return x
 	
 	
-print naturals()
+print "Problem 1 = %d" % problem1()

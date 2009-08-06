@@ -14,4 +14,4 @@ def fibonacci(n):
 def problem2():
 	return fibonacci(4000000)
 	
-print problem2()
+print "Problem 2 = %d" % problem2()

@@ -14,5 +14,5 @@ def problem5():
 		i += 2520
 	return smallest
 
-print "Answer = %d" % problem5()
+print "Problem 5 = %d" % problem5()
 	

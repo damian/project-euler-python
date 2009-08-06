@@ -10,5 +10,5 @@ def problem4(n):
 				biggest = x
 	return biggest
 
-print "Answer = %d" % problem4(999)
+print "Problem 4 = %d" % problem4(999)
 	
