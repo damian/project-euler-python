@@ -8,12 +8,10 @@ def fraction():
 def problem40():
 	array = fraction()
 	result = int(array[0])
-	result *= int(array[9])
-	result *= int(array[99])
-	result *= int(array[999])
-	result *= int(array[9999])
-	result *= int(array[99999])
-	result *= int(array[999999])
+	const, index = '9', 9
+	while (index < 1000000):
+		result *= int(array[index])
+		index = int(str(index) + const)		
 	return result
 
 print "Problem 40 = %d" % problem40()
